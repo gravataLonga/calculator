@@ -1,0 +1,19 @@
+{
+    "name": "gravatalonga/calculator",
+    "description": "Calculator - Library to test unittest",
+    "type": "math",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Fontes",
+            "email": "jonathan.alexey16@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gravatalonga\\": "src/"
+        }
+    }
+}
