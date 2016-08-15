@@ -13,6 +13,7 @@ class Calculator
     {
         $notes = new CalculatorNote;
         $this->list = func_get_args();
+        
         if (func_num_args() <= 0) {
             $this->list = [0];
         }
